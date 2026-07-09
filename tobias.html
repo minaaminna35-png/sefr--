@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طوبيا الابن</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            background: #08111f;
+            color: white;
+            line-height: 1.8;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: #050b15;
+        }
+
+        .logo {
+            color: gold;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: gold;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            flex-wrap: wrap;
+            padding: 50px;
+        }
+
+        .hero img {
+            width: 380px;
+            border-radius: 20px;
+            border: 5px solid gold;
+            box-shadow: 0 0 30px gold;
+        }
+
+        .text {
+            max-width: 650px;
+        }
+
+        .text h1 {
+            color: gold;
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        section {
+            padding: 60px;
+        }
+
+        h2 {
+            text-align: center;
+            color: gold;
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #13233d;
+            padding: 25px;
+            border-radius: 15px;
+            transition: .4s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px gold;
+        }
+
+        .card h3 {
+            color: gold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table th,
+        table td {
+            border: 1px solid #555;
+            padding: 15px;
+            text-align: center;
+        }
+
+        table th {
+            background: gold;
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #050b15;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            سفر طوبيا📖
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <nav id="navbar">
+
+            <a href="index.html">الرئيسية</a>
+            <a href="tobit.html">طوبيا الأب</a>
+            <a href="tobias.html">طوبيا الابن</a>
+            <a href="sara.html">سارة</a>
+            <a href="raphael.html">الملاك رفائيل</a>
+            <a href="غابلوس.html">غابيلوس</a>
+            <a href="حنه.html">حنة</a>
+            <a href="رعوئيل.html">رعوئيل</a>
+            <a href="اخيكار .html">أخيقار</a>
+
+        </nav>
+
+    </header>
+
+    <section class="hero">
+        <img src="images/طوبا الابن.jpg" alt="طوبيا الابن">
+
+        <div class="text">
+            <h1>طوبيا الابن</h1>
+            <p>
+                شاب مؤمن خرج في رحلة مع الملاك روفائيل دون أن يعرف حقيقته،
+                وتزوج سارة وعاد بالبركة وشفاء أبيه.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>نبذة عن طوبيا</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>👦 من هو؟</h3>
+                <p>شاب مؤمن ومطيع لأبيه.</p>
+            </div>
+
+            <div class="card">
+                <h3>🧭 الرحلة</h3>
+                <p>سافر مع الملاك روفائيل.</p>
+            </div>
+
+            <div class="card">
+                <h3>💍 الزواج</h3>
+                <p>تزوج سارة بإرادة الله.</p>
+            </div>
+
+            <div class="card">
+                <h3>✨ النهاية</h3>
+                <p>عاد بالبركة وشفاء أبيه.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>معلومات سريعة</h2>
+
+        <table>
+            <tr>
+                <th>الاسم</th>
+                <td>طوبيا</td>
+            </tr>
+            <tr>
+                <th>الأب</th>
+                <td>طوبيت</td>
+            </tr>
+            <tr>
+                <th>الزوجة</th>
+                <td>سارة</td>
+            </tr>
+            <tr>
+                <th>المرافق</th>
+                <td>الملاك روفائيل</td>
+            </tr>
+            <tr>
+                <th>الصفة</th>
+                <td>شاب بار</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>أهم الدروس</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>🙏 الإيمان</h3>
+                <p>الثقة في الله دائمًا.</p>
+            </div>
+            <div class="card">
+                <h3>🧭 الإرشاد</h3>
+                <p>الله يقود خطواتنا.</p>
+            </div>
+            <div class="card">
+                <h3>💍 الزواج</h3>
+                <p>الله يبارك الزواج المقدس.</p>
+            </div>
+            <div class="card">
+                <h3>✨ البركة</h3>
+                <p>الطاعة تجلب البركة.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>من أسفر؟</h2>
+        <div class="card">
+            سفر طوبيا من الأسفار القانونية الثانية ويتحدث عن إرشاد الله للإنسان.
+        </div>
+    </section>
+
+    <footer>
+        ✝ مشروع سفر طوبيا
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

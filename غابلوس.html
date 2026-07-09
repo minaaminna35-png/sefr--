@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>غابيلوس</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            background: #08111f;
+            color: white;
+            line-height: 1.8;
+        }
+
+        /* HEADER */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: #050b15;
+        }
+
+        .logo {
+            color: gold;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: .3s;
+        }
+
+        nav a:hover {
+            color: gold;
+        }
+
+        /* HERO */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+            padding: 50px;
+            animation: fadeIn 1s ease-in;
+        }
+
+        .hero img {
+            width: 380px;
+            border-radius: 20px;
+            border: 5px solid gold;
+            box-shadow: 0 0 30px gold;
+            transition: .4s;
+        }
+
+        .hero img:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            color: gold;
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 60px;
+            animation: fadeInUp 1s ease;
+        }
+
+        h2 {
+            text-align: center;
+            color: gold;
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+        /* CARDS */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #13233d;
+            padding: 25px;
+            border-radius: 15px;
+            transition: .4s;
+            border: 2px solid transparent;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px gold;
+            border-color: gold;
+        }
+
+        .card h3 {
+            color: gold;
+            margin-bottom: 10px;
+        }
+
+        /* TABLE */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #555;
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background: gold;
+            color: black;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #050b15;
+            margin-top: 40px;
+        }
+
+        /* ANIMATION */
+        @keyframes fadeIn {
+            from {
+                opacity: 0
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">سفر طوبيا📖</div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <nav id="navbar">
+            <a href="index.html">الرئيسية</a>
+            <a href="tobit.html">طوبيا الأب</a>
+            <a href="tobias.html">طوبيا الابن</a>
+            <a href="sara.html">سارة</a>
+            <a href="raphael.html">الملاك رفائيل</a>
+            <a href="غابيلوس.html">غابيلوس</a>
+            <a href="حنه.html">حنة</a>
+            <a href="رعوئيل.html">رعوئيل</a>
+            <a href="اخيكار.html">أخيقار</a>
+        </nav>
+    </header>
+    <!-- HERO -->
+    <section class="hero">
+
+        <img src="images/غابيلوس.jpg" alt="غابيلوس">
+
+        <div>
+            <h1>غابيلوس </h1>
+            <p>
+                غابيلوس هو رجل من سبط نفتالي عاش في مدينة راجيس بماداي. كان صديقًا لطوبيت، وقد ائتمنه طوبيت على مبلغ
+                من
+                المال أثناء وجوده في السبي. وبعد سنوات طويلة، أرسل طوبيا لاسترداد هذا المال، فأعاده غابيلوس بكل
+                أمانة،
+                مما أظهر صدقه وأمانته.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- NOBZA -->
+    <section>
+        <h2>نبذة عن غابيلوس</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>👼 من هو؟</h3>
+                <p> رجل من سبط نفتالي وصديق لطوبيا</p>
+            </div>
+
+            <div class="card">
+                <h3>💰 الأمانة</h3>
+                <p>احتفظ بالمال الذي أودعه عنده طوبيت لسنوات طويلة.</p>
+            </div>
+
+            <div class="card">
+                <h3>🤝 الوفاء</h3>
+                <p>أعاد الوديعة كاملة عندما جاء طوبيا يطلبها.</p>
+            </div>
+
+            <div class="card">
+                <h3>✨ الدور</h3>
+                <p>ساعد في إتمام رحلة طوبيا وتحقيق خطة الله.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TABLE -->
+    <section>
+        <h2>معلومات سريعة</h2>
+
+        <table>
+            <tr>
+                <th>الاسم</th>
+                <td>غابيلوس</td>
+            </tr>
+
+            <tr>
+                <th>مكان الإقامة</th>
+                <td>راجيس بماداي</td>
+            </tr>
+
+            <tr>
+                <th>الصفة</th>
+                <td> رجل أمين</td>
+            </tr>
+
+            <tr>
+                <th>علاقته بطوبيا</th>
+                <td> صديق</td>
+            </tr>
+
+            <tr>
+                <th>دوره</th>
+                <td> حفظ الوديعة وتسليمها لطوبيا </td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- LESSONS -->
+    <section>
+        <h2>أهم الدروس</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>💰 الأمانة</h3>
+                <p>💰 الأمانة تحفظ الثقة.</p>
+            </div>
+
+            <div class="card">
+                <h3>🤝 الوفاء</h3>
+                <p>🤝 الوفاء بالوعود من صفات الإنسان الصالح.</p>
+            </div>
+
+            <div class="card">
+                <h3>❤️ مساعدة الآخرين</h3>
+                <p>❤️ مساعدة الآخرين عمل يرضي الله.</p>
+            </div>
+
+            <div class="card">
+                <h3>🙏 الصدق</h3>
+                <p>🙏 الصدق يقود إلى البركة.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SOURCE -->
+    <section>
+        <h2>ايه من السفر؟</h2>
+
+        <div class="card">
+            "الصلاة مع الصوم خير، والصدقة خير من ادخار كنوز الذهب."
+            (طوبيا 12: 8)
+        </div>
+    </section>
+
+    <footer>
+        ✝ مشروع سفر طوبيا
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+
+</html>

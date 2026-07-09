@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سارة</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            background: #08111f;
+            color: white;
+            line-height: 1.8;
+        }
+
+        /* HEADER */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: #050b15;
+        }
+
+        .logo {
+            color: gold;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            transition: .3s;
+        }
+
+        nav a:hover {
+            color: gold;
+        }
+
+        /* HERO */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+            padding: 50px;
+            animation: fadeIn 1s ease-in;
+        }
+
+        .hero img {
+            width: 360px;
+            border-radius: 20px;
+            border: 5px solid gold;
+            box-shadow: 0 0 30px gold;
+            transition: .4s;
+        }
+
+        .hero img:hover {
+            transform: scale(1.05);
+        }
+
+        .text h1 {
+            color: gold;
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 60px;
+            animation: fadeInUp 1s ease;
+        }
+
+        h2 {
+            text-align: center;
+            color: gold;
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+        /* CARDS */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #13233d;
+            padding: 25px;
+            border-radius: 15px;
+            transition: .4s;
+            border: 2px solid transparent;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px gold;
+            border-color: gold;
+        }
+
+        .card h3 {
+            color: gold;
+            margin-bottom: 10px;
+        }
+
+        /* TABLE */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid #555;
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background: gold;
+            color: black;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #050b15;
+            margin-top: 40px;
+        }
+
+        /* ANIMATION */
+        @keyframes fadeIn {
+            from {
+                opacity: 0
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            سفر طوبيا📖
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <nav id="navbar">
+
+            <a href="index.html">الرئيسية</a>
+            <a href="tobit.html">طوبيا الأب</a>
+            <a href="tobias.html">طوبيا الابن</a>
+            <a href="sara.html">سارة</a>
+            <a href="raphael.html">الملاك رفائيل</a>
+            <a href="غابلوس.html">غابيلوس</a>
+            <a href="حنه.html">حنة</a>
+            <a href="رعوئيل.html">رعوئيل</a>
+            <a href="اخيكار .html">أخيقار</a>
+
+        </nav>
+
+    </header>
+
+    <section class="hero">
+
+        <img src="images/ساره.jpg" alt="سارة">
+
+        <div class="text">
+            <h1>سارة</h1>
+            <p>
+                فتاة تقية تعرضت لابتلاء شديد لكنها صبرت وظلت تثق في الله حتى نالت الشفاء والفرح.
+            </p>
+        </div>
+
+    </section>
+
+    <section>
+        <h2>نبذة عن سارة</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>👩 من هي؟</h3>
+                <p>فتاة مؤمنة تعيش في الصلاة والإيمان.</p>
+            </div>
+
+            <div class="card">
+                <h3>💔 التجربة</h3>
+                <p>مرت بآلام وابتلاء شديد.</p>
+            </div>
+
+            <div class="card">
+                <h3>🙏 الإيمان</h3>
+                <p>ظلت تثق في الله رغم كل الظروف.</p>
+            </div>
+
+            <div class="card">
+                <h3>✨ النهاية</h3>
+                <p>نالها الله الشفاء والفرح.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>معلومات سريعة</h2>
+
+        <table>
+            <tr>
+                <th>الاسم</th>
+                <td>سارة</td>
+            </tr>
+            <tr>
+                <th>الحالة</th>
+                <td>فتاة مؤمنة</td>
+            </tr>
+            <tr>
+                <th>الابتلاء</th>
+                <td>روح شرير</td>
+            </tr>
+            <tr>
+                <th>النتيجة</th>
+                <td>شفاء إلهي</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>أهم الدروس</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🙏 الإيمان</h3>
+                <p>الثقة بالله في أصعب الظروف.</p>
+            </div>
+
+            <div class="card">
+                <h3>💪 الصبر</h3>
+                <p>تحمل الألم دون فقد الرجاء.</p>
+            </div>
+
+            <div class="card">
+                <h3>✨ الرجاء</h3>
+                <p>الله لا يترك أولاده.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>من أسفر؟</h2>
+
+        <div class="card">
+            سفر طوبيا من الأسفار القانونية الثانية ويتحدث عن الإيمان والشفاء الإلهي.
+        </div>
+    </section>
+
+    <footer>
+        ✝ مشروع سفر طوبيا
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
