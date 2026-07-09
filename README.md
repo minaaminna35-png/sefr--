@@ -1,1 +1,10 @@
-# sefr--
+[script.js](https://github.com/user-attachments/files/29867109/script.js)
+[style.css](https://github.com/user-attachments/files/29867110/style.css)[sara.html](https://github.com/user-attachments/files/29867127/sara.html)
+[raphael.html](https://github.com/user-attachments/files/29867125/raphael.html)
+[index.html](https://github.com/user-attachments/files/29867124/index.html)
+[غابلوس.html](https://github.com/user-attachments/files/29867123/default.html)
+[رعوئيل.html](https://github.com/user-attachments/files/29867119/default.html)
+[حنه.html](https://github.com/user-attachments/files/29867118/default.html)
+[اخيكار .html](https://github.com/user-attachments/files/29867117/default.html)
+[tobit.html](https://github.com/user-attachments/files/29867113/tobit.html)
+[tobias.html](https://github.com/user-attachments/files/29867111/tobias.html)
